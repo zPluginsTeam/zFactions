@@ -1,0 +1,24 @@
+name: zFactions
+version: 1.0.0
+description: Professional Factions Plugin for PocketMine-MP 5.x
+author: zPlugins
+website: https://zplugins.xyz
+api: 5.0.0
+main: zPlugins\Factions\Main
+
+permissions:
+  zfactions.command:
+    description: Basic faction commands
+    default: true
+  zfactions.admin:
+    description: Admin faction commands
+    default: op
+  zfactions.fly:
+    description: Faction fly permission
+    default: true
+  zfactions.overclaim:
+    description: Overclaim permission
+    default: true
+
+depend:
+- BedrockEconomy
