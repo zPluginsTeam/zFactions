@@ -73,7 +73,6 @@ class Main extends PluginBase implements Listener {
     
     public function onDisable(): void {
         $this->factionManager->saveAll();
-        $this->getLogger()->info("zPlugins Factions disabled!");
     }
     
     private function loadConfiguration(): void {
