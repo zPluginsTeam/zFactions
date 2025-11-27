@@ -67,7 +67,7 @@ class Main extends PluginBase implements Listener {
         
         // Check for BedrockEconomy dependency
         if (!$this->getServer()->getPluginManager()->getPlugin("BedrockEconomy")) {
-            $this->getLogger()->warning("BedrockEconomy plugin not found! Economy features will be disabled.");
+            $this->getLogger()->warning("[zFactions] BedrockEconomy plugin not found! Economy features will be disabled.");
         }
     }
     
