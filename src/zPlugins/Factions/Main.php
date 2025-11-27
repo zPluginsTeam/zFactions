@@ -69,8 +69,6 @@ class Main extends PluginBase implements Listener {
         if (!$this->getServer()->getPluginManager()->getPlugin("BedrockEconomy")) {
             $this->getLogger()->warning("BedrockEconomy plugin not found! Economy features will be disabled.");
         }
-        
-        $this->getLogger()->info("zPlugins Factions v" . $this->getDescription()->getVersion() . " enabled!");
     }
     
     public function onDisable(): void {
